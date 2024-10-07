@@ -45,13 +45,13 @@ const Register = () => {
                 <View style={{ flexDirection: 'row', justifyContent: 'space-between', width: SCREEN_WIDTH * 0.9 }}>
                     <TextField
                         placeholder="First Name"
-                        value={password}
-                        onChange={setPassword}
+                        //value={password}
+                        //onChange={setPassword}
                         style={styles.smallInputs} />
                     <TextField
                         placeholder="Last Name"
-                        value={password}
-                        onChange={setPassword}
+                        //value={password}
+                        //onChange={setPassword}
                         style={styles.smallInputs} />
                 </View>
                 <PhoneInput
@@ -73,19 +73,19 @@ const Register = () => {
                 />
                 <TextField
                     placeholder="Password"
-                    value={password}
-                    onChange={setPassword}
+                    //value={password}
+                    //onChange={setPassword}
                     isPassword={true}
                     style={styles.largeInputs} />
                 <TextField
                     placeholder="City"
-                    value={password}
-                    onChange={setPassword}
+                    //value={password}
+                    //onChange={setPassword}
                     style={styles.largeInputs} />
                 <TextField
                     placeholder="Referal Code (Optional)"
-                    value={password}
-                    onChange={setPassword}
+                    //value={password}
+                    //onChange={setPassword}
                     style={styles.largeInputs} />
                 <Button
                     title="Continue"
