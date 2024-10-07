@@ -5,9 +5,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Welcome from './src/screens/main/Welcome';
 import Login from './src/screens/auth/Login';
 import Register from './src/screens/auth/Register';
-import { StatusBar } from 'react-native';
+import { LogBox, StatusBar } from 'react-native';
 import COLORS from './src/appStyles/colors';
 import MobileVerification from './src/screens/auth/MobileVerification';
+
+LogBox.ignoreAllLogs();
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
