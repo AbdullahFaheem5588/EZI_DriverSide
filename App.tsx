@@ -7,6 +7,7 @@ import Login from './src/screens/auth/Login';
 import Register from './src/screens/auth/Register';
 import { StatusBar } from 'react-native';
 import COLORS from './src/appStyles/colors';
+import MobileVerification from './src/screens/auth/MobileVerification';
 
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -18,6 +19,7 @@ const App = () => {
         <Stack.Screen name="Welcome" component={Welcome} />
         <Stack.Screen name="Login" component={Login} />
         <Stack.Screen name="Register" component={Register} />
+        <Stack.Screen name="MobileVerification" component={MobileVerification} />
       </Stack.Navigator>
     </NavigationContainer>
   );

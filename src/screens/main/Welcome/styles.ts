@@ -41,6 +41,14 @@ const styles = StyleSheet.create({
     touchableText: {
         fontSize: SCREEN_WIDTH * 0.05,
         color: COLORS.limeGreen,
+        fontWeight: 'bold',
+    },
+    pickersContainer: {
+        width: SCREEN_WIDTH,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        position: 'absolute',
+        bottom: SCREEN_HEIGHT * 0.05,
     },
 });
 
