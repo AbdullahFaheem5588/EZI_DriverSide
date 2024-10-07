@@ -32,7 +32,7 @@ const TextField: React.FC<InputFieldProps> = ({
                 editable={!disabled}
                 placeholder={placeholder}
                 style={styles.input}
-                secureTextEntry={showPassword}
+                secureTextEntry={!showPassword}
                 keyboardType={type}
             />
             {
@@ -40,7 +40,7 @@ const TextField: React.FC<InputFieldProps> = ({
                 <TouchableOpacity
                     style={styles.icon}
                     onPress={() => setShowPassword(!showPassword)} >
-                    <Icon name={showPassword ? "eye" : "eye-off"} size={30} />
+                    <Icon name={!showPassword ? "eye" : "eye-off"} size={30} />
                 </TouchableOpacity>
             }
         </View>
